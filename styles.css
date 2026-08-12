@@ -1,0 +1,323 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #e0f7fa,
+    #ffffff
+  );
+
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+
+.calculator-card {
+  max-width: 800px;
+  border-radius: 18px;
+  border: none;
+}
+
+
+h1 {
+  font-weight: 700;
+}
+
+
+.form-select,
+.form-control {
+  border-radius: 8px;
+}
+
+
+.form-label {
+  font-weight: 600;
+}
+
+
+.credit {
+  font-size: 0.8rem;
+  color: #6c757d;
+  font-weight: normal;
+}
+
+
+/* ===========================
+   Semester Box
+   =========================== */
+
+.semester-box {
+
+  border: 1px solid #dee2e6;
+
+  border-radius: 12px;
+
+  padding: 18px;
+
+  margin-bottom: 20px;
+
+  background: #f8f9fa;
+
+}
+
+
+.semester-title {
+
+  border-bottom: 2px solid #0d6efd;
+
+  padding-bottom: 8px;
+
+  margin-bottom: 18px;
+
+  color: #0d6efd;
+
+  font-weight: 700;
+
+}
+
+
+/* ===========================
+   Button
+   =========================== */
+
+.btn-primary {
+
+  background: linear-gradient(
+    135deg,
+    #007bff,
+    #00bcd4
+  );
+
+  border: none;
+
+  font-weight: 600;
+
+  padding: 12px;
+
+}
+
+
+.btn-primary:hover {
+
+  background: linear-gradient(
+    135deg,
+    #0069d9,
+    #00acc1
+  );
+
+}
+
+
+/* ===========================
+   Result Header
+   =========================== */
+
+.result-header {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+.result-header h3 {
+
+  color: #0d6efd;
+
+  font-weight: 700;
+
+}
+
+
+/* ===========================
+   Result Table
+   =========================== */
+
+.result-table {
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  margin-bottom: 20px;
+
+}
+
+
+.result-table thead th {
+
+  background: #0d6efd;
+
+  color: white;
+
+  font-weight: 600;
+
+  padding: 12px;
+
+}
+
+
+.result-table tbody td {
+
+  padding: 12px;
+
+}
+
+
+.result-table tbody tr:hover {
+
+  background: #f1f8ff;
+
+}
+
+
+.sgpa-value {
+
+  font-weight: 600;
+
+}
+
+
+.cgpa-value {
+
+  font-weight: 700;
+
+  color: #198754;
+
+}
+
+
+/* ===========================
+   Final CGPA
+   =========================== */
+
+.final-result {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 18px 20px;
+
+  border-radius: 12px;
+
+  background: #e8f5e9;
+
+  border: 1px solid #b7dfb9;
+
+  font-size: 1.1rem;
+
+}
+
+
+.final-result strong {
+
+  font-size: 1.6rem;
+
+  color: #198754;
+
+}
+
+
+/* ===========================
+   Single SGPA Result
+   =========================== */
+
+.single-result {
+
+  text-align: center;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  background: #e8f5e9;
+
+}
+
+
+.single-result h3 {
+
+  color: #198754;
+
+  font-weight: 600;
+
+}
+
+
+.big-result {
+
+  font-size: 2.5rem;
+
+  font-weight: 700;
+
+  color: #198754;
+
+}
+
+
+/* ===========================
+   Mobile
+   =========================== */
+
+@media (max-width: 576px) {
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+
+  .calculator-card {
+    padding: 1rem !important;
+  }
+
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+
+  .form-select,
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+
+  .btn-primary {
+    font-size: 0.9rem;
+  }
+
+
+  .result-table {
+    font-size: 0.85rem;
+  }
+
+
+  .result-table thead th,
+  .result-table tbody td {
+    padding: 8px;
+  }
+
+
+  .final-result {
+
+    font-size: 0.95rem;
+
+  }
+
+
+  .final-result strong {
+
+    font-size: 1.3rem;
+
+  }
+
+
+  .big-result {
+
+    font-size: 2rem;
+
+  }
+
+}
